@@ -9,9 +9,9 @@ $(document).ready(function() {
   $("form#travel").submit(function(event) {
     var favPast = $("input#favPast").val();
     var favWeath = $("input#favWeath").val();
+    var favFood = $("input#favFood").val();
     var favShop = $("input#favShop").val();
     var age = parseInt($("input#age").val());
-    var favFood = $("input#favFood").val();
     var gender = $("select#gender").val();
 
 
