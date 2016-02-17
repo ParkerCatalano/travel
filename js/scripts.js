@@ -6,16 +6,20 @@
 //methods like pop(), reverse(), and push()//
 
 $(document).ready(function() {
-  $('#blanks form').submit(function() {
-    var blanks = ["question1", "question2", "question3", "question4", "question5"];
+  $("form#travel").submit(function(event) {
+    var favPast = $("input#favPast").val();
+    var favWeath = $("input#favWeath").val();
+    var favShop = $("input#favShop").val();
+    var age = parseInt($("input#age").val());
+    var favFood = $("input#favFood").val();
+    var gender = $("select#gender").val();
 
-    blanks.forEach(function(blank) {
-      var userInput = $("input#" + blank).val();
-      $("." + blank).text(userInput);
 
-    });
+    var dest = (" this destination");
 
-    $('#result').show();
+
+    $("#loca").text(dest);
+    $("#dest").show()
 
     event.preventDefault();
   });
