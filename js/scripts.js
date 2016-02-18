@@ -7,15 +7,9 @@
 
 $(document).ready(function() {
   $("form#travel").submit(function(event) {
-    var favPast = $("select#favPast").val();
-    var favWeath = $("select#favWeath").val();
-    var favFood = $("select#favFood").val();
-    var favShop = $("select#favShop").val();
-    var age = $("input#age").val();
-    var gender = $("select#gender").val();
+  var travel = ["favPast","favWeath", "favFood", "favShop", "age", "gender"];
 
-
-    var dest = ("this destination");
+    var dest = (" Venice, Italy");
 
 
     $("#loca").text(dest);
