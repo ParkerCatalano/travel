@@ -5,13 +5,14 @@ label {
 
 }
 
-h1 {
+.jumbotron {
   background-image: url("https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/3/3/1425397881428/c767cbbe-651e-4a74-9c83-dcb08684cfc7-2060x1236.jpeg?w=1125&q=85&auto=format&sharp=10&s=1cfc6cf35c94f4269e6e1f77d0afcc5c");
-  height: 120px;
+  height: 200px;
   text-align: center;
   background-position: center;
   color: #ccffe6;
-  text-shadow: 2px 2px #006633;
+  font-size:65px;
+  text-shadow: 4px 4px #006633;
 
 
 }

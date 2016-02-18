@@ -7,15 +7,15 @@
 
 $(document).ready(function() {
   $("form#travel").submit(function(event) {
-    var favPast = $("input#favPast").val();
-    var favWeath = $("input#favWeath").val();
-    var favFood = $("input#favFood").val();
-    var favShop = $("input#favShop").val();
-    var age = parseInt($("input#age").val());
+    var favPast = $("select#favPast").val();
+    var favWeath = $("select#favWeath").val();
+    var favFood = $("select#favFood").val();
+    var favShop = $("select#favShop").val();
+    var age = $("input#age").val();
     var gender = $("select#gender").val();
 
 
-    var dest = (" this destination");
+    var dest = ("this destination");
 
 
     $("#loca").text(dest);

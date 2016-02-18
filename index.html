@@ -9,25 +9,44 @@
   </head>
   <body>
     <div class="container">
+      <div class="jumbotron">
       <h1>W8N4A DREAM VACATION</h1>
+    </div>
 
       <p>To find your perfect vacation destination, we just need you to answer a few(5) preferetial questions:</p>
 
       <form id="travel">
-        <label for="favPast">which is more your type of pasttime?(making art/playing sports/making food)</label>
-        <input id="favPast" type="text">
+        <label for="favPast">which is more your type of pasttime?</label>
+        <select id="favPast">
+          <option value="making art">making art</option>
+          <option value="playing sports">playing sports</option>
+          <option value="making food">making food</option>
+        </select>
         <br></br>
-        <label for="favWeath">which type of weather would you prefer?(sunny/misty/snowing)</label>
-        <input id="favWeath" type="text">
+        <label for="favWeath">which type of weather would you prefer?</label>
+        <select id="favWeath">
+          <option value="sunny">sunny</option>
+          <option value="misty">misty</option>
+          <option value="snowing">snowing</option>
+        </select>
         <br></br>
-        <label for="favFood">whats your favorite of these food types?(vegetables/meats/wraps)</label>
-        <input id="favFood" type="text">
+        <label for="favWeath">whats your favorite of these food types?</label>
+        <select id="favWeath">
+          <option value="vegetables">vegetables</option>
+          <option value="meats">meats</option>
+          <option value="wraps">wraps</option>
+        </select>
         <br></br>
-        <label for="favShop">do you like to shop?(yes/no)</label>
-        <input id="favShop" type="text">
+        <label for="favShop">how often do you shop?</label>
+        <select id="favShop">
+          <option value="rarely">rarely</option>
+          <option value="sometimes">sometimes</option>
+          <option value="often">often</option>
+        </select>
         <br></br>
+
         <label for="age">how old are you?</label>
-        <input id="age" type="text">
+          <input id="age"type="number" min="1" max="200"/>
         <br></br>
         <label for="gender">gender?</label>
         <select id="gender">
