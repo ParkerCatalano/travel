@@ -8,7 +8,9 @@ label {
 .jumbotron {
   background-image: url("https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/3/3/1425397881428/c767cbbe-651e-4a74-9c83-dcb08684cfc7-2060x1236.jpeg?w=1125&q=85&auto=format&sharp=10&s=1cfc6cf35c94f4269e6e1f77d0afcc5c");
   height: 200px;
+  margin-top: 20px;
   text-align: center;
+  text-decoration: overline ;
   background-position: center;
   color: #ccffe6;
   font-size:65px;
