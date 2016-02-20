@@ -6,14 +6,9 @@
 //methods like pop(), reverse(), and push()//
 
 $(document).ready(function() {
-  $("form#travel").submit(function(event) {
-  var travel = ["favPast","favWeath", "favFood", "favShop", "age", "gender"];
-    if ("#favPast" === true) {
-    $("#loca").text(destination[0]);
-    $("#dest").show()
-  }
+  $("form#travel").submit(function(event)
+  var favPast = 
 
-  var destination = ["Venice, Italy", "Sao Paulo, Brazil", "Istanbul, Turkey"];
 
     event.preventDefault();
   });
