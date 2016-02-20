@@ -1,6 +1,5 @@
 label {
-  display: table-row;
-  table-layout: auto;
+  display: block;
   width:100px;
 
 }
@@ -10,7 +9,7 @@ label {
   height: 200px;
   margin-top: 20px;
   text-align: center;
-  text-decoration: overline ;
+  text-decoration: underline ;
   background-position: center;
   color: #ccffe6;
   font-size:65px;

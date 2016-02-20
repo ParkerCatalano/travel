@@ -8,10 +8,12 @@
 $(document).ready(function() {
   $("form#travel").submit(function(event) {
   var travel = ["favPast","favWeath", "favFood", "favShop", "age", "gender"];
-  var destination = ["Venice, Italy", "Sao Paulo, Brazil", "Istanbul, Turkey"];
-
-    $("#loca").text(destination[2]);
+    if ("#favPast" === true) {
+    $("#loca").text(destination[0]);
     $("#dest").show()
+  }
+
+  var destination = ["Venice, Italy", "Sao Paulo, Brazil", "Istanbul, Turkey"];
 
     event.preventDefault();
   });
