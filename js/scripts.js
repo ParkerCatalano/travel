@@ -6,9 +6,10 @@
 //methods like pop(), reverse(), and push()//
 
 $(document).ready(function() {
-  $("form#travel").submit(function(event)
-  var favPast = 
-
+  $("form#travel").submit(function(event) {
+    if ($('select option:selected').text() == "true") {
+          $("#dest2").show();
+        }
 
     event.preventDefault();
   });

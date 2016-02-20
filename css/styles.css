@@ -17,6 +17,12 @@ label {
 
 
 }
-#dest {
+#dest1{
+  display: none;
+}
+#dest2{
+  display: none;
+}
+#dest3{
   display: none;
 }
