@@ -1,16 +1,20 @@
-//var destinations = ["Bahamas", "Italy", "Paris", "Costa Rica", "Belgium"]
-
-//to combine arrays: var_name.concat//
-//to add elements to array: var_name.push//
-//to access element in array: var_name[0]/[2] etc.//
-//methods like pop(), reverse(), and push()//
-
 $(document).ready(function() {
-  $("form#travel").submit(function(event) {
-    if ($('select option:selected').text() == "true") {
-          $("#dest2").show();
-        }
 
-    event.preventDefault();
-  });
-});
+  $favPast = $('#favPast')
+  $favWeath = $('#favWeath')
+  $favFood = $('#favFood')
+  $favShop = $('#favShop')
+  $gender = $('#gender')
+
+  $("button").click(function() {
+
+    if($favPast.val() === true) {
+      $("#dest2").show();
+    }
+    // clear inputs when you're all done
+    $favPast.empty()
+    $favWeath.empty()
+    $favShop.empty()
+    $favFood.empty()
+  })
+})
