@@ -6,16 +6,16 @@ $(document).ready(function() {
   $favShop = $('#favShop')
   $gender = $('#gender')
 
-  $('button').click(function() {
+  $('button').click(function(event) {
 
     if(($favPast.val() === true)||($favShop.val() === true)){
-      $('#dest1').show();
+      $('#dest3').show();
     }
     else if ($favFood.val() === true) {
       $('#dest2'|| '#dest1').show();
     }
     else {
-      $('#dest3').show();
+      $('#dest1').show();
     }
     // clear inputs when you're all done
     $favPast.empty()
