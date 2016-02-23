@@ -8,11 +8,11 @@ $(document).ready(function() {
 
   $('button').click(function(event) {
 
-    if(($favPast.val() === true)||($favShop.val() === true)){
+    if($favPast.val() && $favShop.val() === "true"){
       $('#dest3').show();
     }
-    else if ($favFood.val() === true) {
-      $('#dest2'|| '#dest1').show();
+    else if ($favFood.val() === "true") {
+      $('#dest2').show();
     }
     else {
       $('#dest1').show();
