@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   $('button').click(function(event) {
 
-    if($favPast.val() && $favShop.val() === "true"){
+    if(($favPast.val() && $favShop.val() === "true")||($gender.val() === "male")){
       $('#dest3').show();
     }
     else if ($favFood.val() === "true") {
